@@ -6,6 +6,7 @@ import Configuracion from './configuraciones';
 import CarritoDeCompra from './carrito';
 import Comentario from './comenarios';
 import Notificacion from './notificacion';
+import logo from '../assets/img/leon.png';
 
 function ProductosMedicinales() {
     return(
@@ -30,7 +31,7 @@ function ProductosMedicinales() {
     <div className="container-fluid">
       <a className="navbar-brand" href="index.php">
         ARCA
-        <img src="assets/img/leon.png" width="10%" />
+        <img src={logo} width="10%" />
       </a>
       <button
         className="navbar-toggler"

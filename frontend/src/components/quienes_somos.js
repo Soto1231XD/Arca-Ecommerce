@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import logo from '../assets/img/leon.png';
 
 function QuienesSomos () {
     return(
@@ -23,7 +24,7 @@ function QuienesSomos () {
     <div className="container-fluid">
       <a className="navbar-brand">
         ARCA
-        <img src="assets/img/leon.png" width="10%" />
+        <img src={logo} width="10%" />
       </a>
       <button
         className="navbar-toggler"

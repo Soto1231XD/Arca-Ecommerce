@@ -7,6 +7,10 @@ import Configuracion from './configuraciones';
 import CarritoDeCompra from './carrito';
 import Comentario from './comenarios';
 import Notificacion from './notificacion';
+import logo from '../assets/img/leon.png';
+import habitat from '../assets/img/pexels-gustavo-fring-6816869.jpg';
+import clasificacion from '../assets/img/pexels-anna-shvets-3683074.jpg';
+import alimentacion from '../assets/img/pexels-ermelinda-maglione-6560380.jpg';
 
 function ServiciosEsteticos() {
     return(
@@ -30,7 +34,7 @@ function ServiciosEsteticos() {
     <div className="container-fluid">
       <a className="navbar-brand" href="index.php">
         ARCA
-        <img src="assets/img/leon.png" width="10%" />
+        <img src={logo} width="10%" />
       </a>
       <button
         className="navbar-toggler"
@@ -96,7 +100,7 @@ function ServiciosEsteticos() {
               <h4>Servicio 1</h4>
             </center>
             <img
-              src="assets/img/pexels-gustavo-fring-6816869.jpg"
+              src={habitat}
               className="card-img-top gif-img"
               alt="Imagen Clasificación"
             />
@@ -120,7 +124,7 @@ function ServiciosEsteticos() {
               <h4>Servicio 2</h4>
             </center>
             <img
-              src="assets/img/pexels-anna-shvets-3683074.jpg"
+              src={clasificacion}
               className="card-img-top gif-img"
               alt="Imagen Clasificación"
             />
@@ -144,7 +148,7 @@ function ServiciosEsteticos() {
               <h4>Servicio 3</h4>
             </center>
             <img
-              src="assets/img/pexels-ermelinda-maglione-6560380.jpg"
+              src={alimentacion}
               className="card-img-top gif-img"
               alt="Imagen Alimentación"
             />

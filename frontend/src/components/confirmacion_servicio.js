@@ -29,8 +29,8 @@ function ConfirmacionServicio() {
         <div className="card square-card">
           <center>
             <title>CITA</title>
-            <h1>CONFRIMADA</h1>
-            <h2> Su cita ya esta registrada y confirmada :3</h2>
+            <h1>CONFIRMADA</h1>
+            <h2> Su cita ya esta registrada </h2>
           </center>
           <Link to="/" className="btn btn-dark">
                   Regresar

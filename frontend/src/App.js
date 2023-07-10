@@ -20,6 +20,8 @@ import CarritoDeCompra from './components/carrito';
 import ConfirmarCita from './components/confirmar_cita';
 import ConfirmacionServicio from './components/confirmacion_servicio';
 import VerProductoMedicinal from './components/ver_producto_medicinales';
+import PasarelaPago from './components/pasarela_pago';
+import PagoConfirmado from './components/pago_confirmado';
 
 
 
@@ -47,6 +49,8 @@ function App() {
         <Route path="/confirmar_cita" element={<ConfirmarCita />} />
         <Route path="/confirmacion_servicio" element={<ConfirmacionServicio />} />
         <Route path="/ver_producto_medicinales" element={<VerProductoMedicinal />} />
+        <Route path="/pasarela_pago" element={<PasarelaPago />} />
+        <Route path="/pago_confirmado" element={<PagoConfirmado />} />
       </Routes>
     </Router>
   );

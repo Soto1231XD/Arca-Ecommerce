@@ -8,6 +8,11 @@ import QuienesSomos from './quienes_somos';
 import Configuracion from './configuraciones';
 import Comentario from './comenarios';
 import CarritoDeCompra from './carrito';
+import logo from '../assets/img/leon.png';
+import animal from '../assets/img/Pesteticos.jpg';
+import clasificacion from '../assets/img/pexels-anna-shvets-3683074.jpg';
+import alimentacion from '../assets/img/pexels-ermelinda-maglione-6560380.jpg';
+import habitat from '../assets/img/pexels-gustavo-fring-6816869.jpg';
 
 
 
@@ -34,7 +39,7 @@ function MiComponente() {
     <div className="container-fluid">
       <a className="navbar-brand" >
         ARCA
-        <img src="{require('../imagenes/leon.png')}" width="10%" />
+        <img src={logo} width="10%" />
 
       </a>
       <button
@@ -102,7 +107,7 @@ function MiComponente() {
         <div className="col-md-3">
           <div className="card square-card">
             <img
-              src="assets/img/Pesteticos.jpg"
+              src={animal}
               className="card-img-top gif-img"
               alt="Imagen Animal"
             />
@@ -123,7 +128,7 @@ function MiComponente() {
         <div className="col-md-3">
           <div className="card">
             <img
-              src="assets/img/pexels-anna-shvets-3683074.jpg"
+              src={clasificacion} 
               className="card-img-top gif-img"
               alt="Imagen Clasificación"
             />
@@ -144,7 +149,7 @@ function MiComponente() {
         <div className="col-md-3">
           <div className="card">
             <img
-              src="assets/img/pexels-ermelinda-maglione-6560380.jpg"
+              src={alimentacion}
               className="card-img-top gif-img"
               alt="Imagen Alimentación"
             />
@@ -166,7 +171,7 @@ function MiComponente() {
           <div className="card">
             <img
               width="5%"
-              src="assets/img/pexels-gustavo-fring-6816869.jpg"
+              src={habitat}
               className="card-img-top gif-img"
               alt="Imagen Hábitat"
             />
